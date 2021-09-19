@@ -232,7 +232,7 @@ header {
   background-color: #8ba300;
 }
 
-.conhecimentos {
+.descricao {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
