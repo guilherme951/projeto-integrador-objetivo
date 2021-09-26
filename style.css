@@ -232,7 +232,7 @@ header {
   background-color: #8ba300;
 }
 
-.descricao {
+.conhecimento {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
@@ -241,8 +241,8 @@ header {
 }
 
 .conhecimento:nth-child(1) {
-  grid-column: 13 / 7;
-  grid-row: 1 / 3;
+  grid-column: 5 / 13;
+  grid-row: 12 / 3;
 }
 
 .conhecimento:nth-child(2) {
