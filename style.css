@@ -233,12 +233,18 @@ header {
   background-color: #8ba300;
 }
 
+.parent {
+  display: flex;
+  grid-template-columns: 3fr;
+  grid-template-rows: 19fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
 .descricao {
   height: 100%;
-  display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(6, 6rem);
-  row-gap: 0.5rem;
+  display: flex;
+  text-align: center;
 }
 
 .sessao-historia {
@@ -281,81 +287,12 @@ header {
   margin-top: 1rem;
 }
 
-.conhecimentos-img-wrapper {
-  grid-column: 7 / 11;
-  grid-row: 2 / 6;
-  width: 80%;
-  height: 80%;
-}
-
-.conhecimentos-img-wrapper img {
-  object-fit: cover;
-  height: 100%;
-}
-
 .projetos {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 2rem;
 }
 
-.card {
-  width: 18rem;
-  height: 25rem;
-  position: relative;
-}
-
-.card-img-wrapper {
-  width: 100%;
-  height: 100%;
-  background-color: #262626;
-  border-radius: 0.5rem;
-}
-
-.card-img-wrapper img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  opacity: 0.8;
-  transition: opacity 0.3s;
-}
-
-.card:hover .card-img-wrapper img {
-  opacity: 0.5;
-}
-
-.card-info {
-  position: absolute;
-  bottom: 0;
-  opacity: 0;
-  visibility: hidden;
-  padding: 2rem;
-  text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
-  transition: all 0.3s;
-}
-
-.card-info h2 {
-  font-family: var(--font-primary);
-  font-size: 2rem;
-  font-weight: 500;
-  color: #eee;
-}
-
-.card-info h3 {
-  font-family: var(--font-action);
-  font-weight: bolder;
-  color: #ff4081;
-  margin-bottom: 1.5rem;
-}
-
-.card-info p {
-  font-family: var(--font-secundary);
-  color: #eee;
-  font-weight: 400;
-  width: 80%;
-  margin-bottom: 2rem;
-}
 
 .btn {
   background: #8ba300;
@@ -368,16 +305,6 @@ header {
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
-.card-info button {
-  width: 8rem;
-  height: 2.5rem;
-}
-
-.card:hover .card-info {
-  bottom: 2rem;
-  opacity: 1;
-  visibility: visible;
-}
 
 .sessao-contato {
   width: 100%;
