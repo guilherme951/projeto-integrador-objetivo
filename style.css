@@ -20,7 +20,6 @@ html{
 }
 
 .hamburguer {
-  /* background-color: red; */
   width: 2rem;
   height: 2rem;
   position: fixed;
@@ -945,6 +944,7 @@ footer{
 }
 
 .footer-content{
+  
   width: 60%;
   display: flex;
   justify-content: space-between;
