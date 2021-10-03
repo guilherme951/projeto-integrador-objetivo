@@ -8,6 +8,9 @@
   list-style: none;
   text-decoration: none;
 }
+.body {
+  background-image: url('bg3.png');
+}
 
 :root {
   --font-primary: "Monoton", serif;
@@ -201,6 +204,7 @@ header {
   font-size: 2rem;
   color: #555;
   transition: color 1s;
+  
 }
 
 .menu-link:hover {
@@ -213,6 +217,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  
 }
 
 .social-media i {
@@ -230,28 +235,27 @@ header {
 
 .social-media i:hover {
   background-color: #8ba300;
+  
 }
 
-.parent {
-  display: flex;
-  grid-template-columns: 3fr;
-  grid-template-rows: 19fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  }
 
 .descricao {
   height: 100%;
   display: flex;
   text-align: center;
+  
 }
 
+
 .sessao-historia {
-  background-color: #f5f5f5;
-  height: 100%;
-  width: 990px;
+
+  width: 999px;
   height: 500px;
  
+}
+.p {
+  height:  200px;
+  width: auto;
 }
 
 .sessao-header {
