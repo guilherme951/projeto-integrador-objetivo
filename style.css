@@ -249,9 +249,15 @@ header {
 
 .sessao-historia {
   background-image: url('bg3.png');
- width: auto;
+  width: auto;
   height: 1500px;
  
+}
+.sessao-parcerias {
+  background-image: url('bg2.png');
+  width: 900px;
+  height: 900px;
+  
 }
 
 
@@ -294,9 +300,6 @@ header {
   font-size: large;
 }
 
-.parcerias {
-  
-}
 
 .projetos {
   display: flex;
