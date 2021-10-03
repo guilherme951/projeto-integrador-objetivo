@@ -282,7 +282,7 @@ header {
 .descricao-header h3 {
   font-family: var(--font-secundary);
   font-size: 2.5rem;
-  padding-left: 20rem;
+  padding-left: 10rem;
   padding-right: 20px;
 }
 
