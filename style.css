@@ -256,7 +256,7 @@ header {
 .sessao-parcerias {
   background-image: url('bg4.png');
   width: auto;
-  height: 4 00px;
+  height: 300px;
   
 }
 
@@ -291,7 +291,7 @@ header {
   font-size: 2.5rem;
   padding-left: 10rem;
   padding-right: 20px;
-  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
 .descricao-text {
