@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 .body {
-  background-image: url('bg3.png');
+  
 }
 
 :root {
@@ -248,15 +248,12 @@ header {
 
 
 .sessao-historia {
-
-  width: 999px;
-  height: 500px;
+  background-image: url('bg3.png');
+ width: auto;
+  height: 1500px;
  
 }
-.p {
-  height:  200px;
-  width: auto;
-}
+
 
 .sessao-header {
   display: flex;
@@ -290,9 +287,15 @@ header {
 }
 
 .descricao-text {
+  height: 300px;
+  width: 400px;
   font-family: var(--font-secundary);
   margin-top: 1rem;
   font-size: large;
+}
+
+.parcerias {
+  
 }
 
 .projetos {
