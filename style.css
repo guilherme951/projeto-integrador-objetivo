@@ -259,6 +259,12 @@ header {
   height: 300px;
   
 }
+.sessao-videos {
+  background-image: url('bg5.png');
+  width: auto;
+  height: 600px;
+  
+}
 
 
 .sessao-header {
