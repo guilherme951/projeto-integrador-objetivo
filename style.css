@@ -301,7 +301,8 @@ header {
 }
 
 .descricao-text {
-  height: 300px;
+  align-items: center;
+  height: 50%;
   width: 400px;
   font-family: var(--font-secundary);
   margin-top: 1rem;
@@ -309,11 +310,12 @@ header {
 }
 
 .audio{
+  align-items: center;
   padding-left: 40%;
-  padding-top: 15px;
+  padding-top: 5%;
   background-image: url('music/foco.png');
   height: 100px;
-  align-items: center;
+  
 }
 
 
