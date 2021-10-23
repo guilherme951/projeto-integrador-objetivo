@@ -309,8 +309,8 @@ header {
 }
 
 .audio{
-  margin-top: 30px;
-  padding-left: 300px;
+  padding-left: 40%;
+  padding-top: 15px;
   background-image: url('music/foco.png');
   height: 100px;
   align-items: center;
