@@ -308,6 +308,13 @@ header {
   font-size: large;
 }
 
+.audio{
+  padding-left: 300px;
+  background-image: url('music/foco.png');
+  height: 100px;
+  align-items: center;
+}
+
 
 .projetos {
   display: flex;
