@@ -309,11 +309,19 @@ header {
   font-size: large;
 }
 
-.audio{
+.audio1{
   align-items: center;
   padding-left: 40%;
   padding-top: 5%;
   background-image: url('music/foco.png');
+  height: 100px;
+  
+}
+.audio2{
+  align-items: center;
+  padding-left: 40%;
+  padding-top: 5%;
+  background-image: url('music/redoma.png');
   height: 100px;
   
 }
