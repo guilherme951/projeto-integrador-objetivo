@@ -265,6 +265,17 @@ header {
   height: 600px;
   
 }
+.sessao-videos2 {
+  background-image: url('bg8.png');
+  width: auto;
+  height: 600px;
+  
+}
+.descricao2 {
+  padding-left: 30%;
+  padding-top: 1%;
+
+}
 
 
 .sessao-header {
